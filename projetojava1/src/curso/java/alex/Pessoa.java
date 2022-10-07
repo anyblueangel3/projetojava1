@@ -7,12 +7,12 @@ public class Pessoa {
 	private String sobrenome;
 	private int idade;
 	private Date dataNascimento;
-	private Data dataCadastro;
+	private Date dataCadastro;
 	
-	public Data getDataCadastro() {
+	public Date getDataCadastro() {
 		return dataCadastro;
 	}
-	public void setDataCadastro(Data dataCadastro) {
+	public void setDataCadastro(Date dataCadastro) {
 		this.dataCadastro = dataCadastro;
 	}
 	public Date getDataNascimento() {
