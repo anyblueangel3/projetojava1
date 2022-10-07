@@ -7,7 +7,14 @@ public class Pessoa {
 	private String sobrenome;
 	private int idade;
 	private Date dataNascimento;
+	private Data dataCadastro;
 	
+	public Data getDataCadastro() {
+		return dataCadastro;
+	}
+	public void setDataCadastro(Data dataCadastro) {
+		this.dataCadastro = dataCadastro;
+	}
 	public Date getDataNascimento() {
 		return dataNascimento;
 	}
