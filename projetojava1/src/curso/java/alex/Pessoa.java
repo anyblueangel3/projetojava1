@@ -9,8 +9,15 @@ public class Pessoa {
 	private Date dataNascimento;
 	private Date dataCadastro;
 	private String cpf;
+	private String rg;
 	private String cor;
 	
+	public String getRg() {
+		return rg;
+	}
+	public void setRg(String rg) {
+		this.rg = rg;
+	}
 	public String getCor() {
 		return cor;
 	}
