@@ -8,8 +8,21 @@ public class Pessoa {
 	private int idade;
 	private Date dataNascimento;
 	private Date dataCadastro;
-	private String estadoCivil;
+	private String cpf;
+	private String cor;
 	
+	public String getCor() {
+		return cor;
+	}
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
 	public Date getDataCadastro() {
 		return dataCadastro;
 	}
