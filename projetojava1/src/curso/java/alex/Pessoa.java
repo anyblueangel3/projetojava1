@@ -8,6 +8,7 @@ public class Pessoa {
 	private int idade;
 	private Date dataNascimento;
 	private Date dataCadastro;
+	private String estadoCivil;
 	
 	public Date getDataCadastro() {
 		return dataCadastro;
